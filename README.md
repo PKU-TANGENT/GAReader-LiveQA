@@ -1,8 +1,11 @@
-# RACE Reading Comprehension Task
+# Gated Attention Reader Baseline for LiveQA
 
-Code for the paper: [RACE: Large-scale ReAding Comprehension Dataset From Examination](https://arxiv.org/pdf/1704.04683.pdf). Guokun Lai*, Qizhe Xie*, Hanxiao Liu, Yiming Yang and Eduard Hovy. EMNLP 2017
+LiveQA: A Question Answering Dataset over Sports Live. The Nineteenth China National Conference on Computational Linguistics, CCL 2020.
 
-[Leaderboard of RACE](http://www.qizhexie.com//data/RACE_leaderboard)
+The data in this repo has already been selected from the original timeline.
+
+Forked from Code for the paper: [RACE: Large-scale ReAding Comprehension Dataset From Examination](https://arxiv.org/pdf/1704.04683.pdf). Guokun Lai*, Qizhe Xie*, Hanxiao Liu, Yiming Yang and Eduard Hovy. EMNLP 2017
+
 
 ## Dependencies
 * Python 2.7
@@ -10,11 +13,8 @@ Code for the paper: [RACE: Large-scale ReAding Comprehension Dataset From Examin
 * Lasagne 0.2.dev1
 
 ## Datasets
-* RACE:
-    Please submit a data request [here](http://www.cs.cmu.edu/~glai1/data/race/). The data will be automatically sent to you. Create a "data" directory alongside "src" directory and download the data.
-
-* Word embeddings:
-    * glove.6B.zip: [http://nlp.stanford.edu/data/glove.6B.zip](http://nlp.stanford.edu/data/glove.6B.zip)
+* LiveQA:
+raw data could be found [here](https://github.com/PKU-TANGENT/LiveQA)
 
 ## Usage
 ### Preprocessing
@@ -28,21 +28,10 @@ Code for the paper: [RACE: Large-scale ReAding Comprehension Dataset From Examin
     * test pre-trained model: bash test_GA.sh
     * train: bash train_GA.sh (The pre-trained model will be replaced)
 
-## Reference
-```
-@inproceedings{lai2017large,
-  title={RACE: Large-scale ReAding Comprehension Dataset From Examinations},
-  author={Lai, Guokun and Xie, Qizhe and Liu, Hanxiao and Yang, Yiming and Hovy, Eduard},
-  booktitle={EMNLP},
-  year={2017}
-}
-```
 
 ## Acknowledgement
 * The code is adapted from Stanford AR https://github.com/danqi/rc-cnn-dailymail and GA https://github.com/bdhingra/ga-reader
 
-## Contact
-* Please contact Qizhe Xie (qzxie AT cs DOT cmu DOT edu) if you find bugs or missing info
 
 ## License
 MIT
