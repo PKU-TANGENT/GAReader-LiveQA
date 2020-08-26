@@ -1,0 +1,1 @@
+THEANO_FLAGS="mode=FAST_RUN,device=gpu1,floatX=float32,root=/usr/local/cuda-7.5" stdbuf -i0 -e0 -o0 python main.py -train_file ../data/data/train -dev_file ../data/data/dev -embedding_size 100 -optimizer sgd -dropout_rate 0.5 -model_file ../obj/model_SAR.pkl.gz 

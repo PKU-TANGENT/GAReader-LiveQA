@@ -1,0 +1,1 @@
+THEANO_FLAGS="mode=FAST_RUN,device=cuda,floatX=float32" stdbuf -i0 -e0 -o0 python main.py -train_file ../data/data/train -dev_file ../data/data/dev -embedding_size 100 -optimizer sgd -dropout_rate 0.5 -lr 0.3 -num_GA_layers 1 -hidden_size 128 -model GA -model_file ../obj/model_GA.pkl.gz
