@@ -2,7 +2,7 @@
 
 LiveQA: A Question Answering Dataset over Sports Live. The Nineteenth China National Conference on Computational Linguistics, CCL 2020.
 
-The data in this repo has already been selected from the original timeline.
+The data in this repo has already been selected from the original timeline. Please unzip the data before using.
 
 Forked from Code for the paper: [RACE: Large-scale ReAding Comprehension Dataset From Examination](https://arxiv.org/pdf/1704.04683.pdf). Guokun Lai*, Qizhe Xie*, Hanxiao Liu, Yiming Yang and Eduard Hovy. EMNLP 2017
 
