@@ -4,7 +4,6 @@ LiveQA: A Question Answering Dataset over Sports Live. The Nineteenth China Nati
 
 The data in this repo has already been selected from the original timeline. Please unzip the data before using.
 
-Forked from Code for the paper: [RACE: Large-scale ReAding Comprehension Dataset From Examination](https://arxiv.org/pdf/1704.04683.pdf). Guokun Lai*, Qizhe Xie*, Hanxiao Liu, Yiming Yang and Eduard Hovy. EMNLP 2017
 
 
 ## Dependencies
@@ -31,6 +30,8 @@ raw data could be found [here](https://github.com/PKU-TANGENT/LiveQA)
 
 ## Acknowledgement
 * The code is adapted from Stanford AR https://github.com/danqi/rc-cnn-dailymail and GA https://github.com/bdhingra/ga-reader
+
+* Forked from Code for the paper: [RACE: Large-scale ReAding Comprehension Dataset From Examination](https://arxiv.org/pdf/1704.04683.pdf). Guokun Lai*, Qizhe Xie*, Hanxiao Liu, Yiming Yang and Eduard Hovy. EMNLP 2017
 
 
 ## License
